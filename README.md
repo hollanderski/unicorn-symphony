@@ -1,2 +1,2 @@
 # unicorn-symphony
-music generation and MIDI control with 8-channel EEG 
+music generation and MIDI control with 8-channel EEG (Unicorn Hybrid Black)
