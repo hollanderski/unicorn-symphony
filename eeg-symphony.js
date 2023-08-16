@@ -16,8 +16,14 @@ const mallet_cc = { "low": 5, "high":6 }
 const drone_cc = { "alpha": 3, "gamma":2 }
 //const tingsha_notes = ["C3", "C#3", "D3", "C4"];
 
+
+/**** SOUND SPATIALIZATION ****/
+
 // Electrodes location and corresponding Azimut/Radius values for sound spatialization in Envelop4Live : 
 const electrodes = {"Cz" : [0,0], "C4" : [90, 0.2], "C3" : [-90, 0.2], "Fz" : [0, 0.2], "Pz" : [180, 0.2], "Oz": [180, 0.4], "PO7" : [-144, 0.4], "PO8" : [144, 0.4]}
+
+// CC Control for Azimut/Radius :
+const spatial_audio = {"azimut" : 13, "radius" : 14}
 
 
 var easymidi = require('easymidi');
